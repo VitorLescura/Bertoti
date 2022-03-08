@@ -2,9 +2,9 @@ package strategypattern;
 
 public class Cliente {
 
-	private Emprestimo emprestimo; //aqui o polimorfismo
+	private Emprestimo emprestimo; 
 	
-	public void setEmprestimo(Emprestimo emprestimo){//argumento polimorfico
+	public void setEmprestimo(Emprestimo emprestimo){
 		this.emprestimo = emprestimo;
 	}
 	
