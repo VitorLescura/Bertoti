@@ -1,8 +1,8 @@
-public class objetoSimples implements Objeto{
+public class objetoComum implements Objeto{
   private List<Observer> observers;
   private int valor = 0;
   
-  public objetoSimples(){
+  public objetoComum(){
     observers = new ArrayList<Observer>();
     }
   public void registerObserver(Observer o){
